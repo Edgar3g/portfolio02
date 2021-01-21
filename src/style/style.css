@@ -1,0 +1,84 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background: #483d8b;
+    font-family: "Helvetica", sans-serif;
+}
+
+/* Header Section */
+
+header
+{
+    border: 1px solid  #6e5ed398;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14pt;
+    height: 15vh;
+    align-items: center;
+    padding: 0.8rem;
+    color: rgb(228, 224, 224);
+}
+
+header > #logo
+{
+
+    padding-left: 2vh;
+    font-size: 17pt;
+    font-weight: bold;
+    font-family: "Fira Code", sans-serif;
+}
+
+
+header > nav > a
+{
+    color: rgb(199, 196, 196);
+    text-decoration: none;
+    margin: 4vh;
+}
+
+header > #logo > #dev_sib
+{
+    color: #00ffff;
+}
+
+/* Header elements effects */
+
+header > nav > a:hover
+{
+    
+    font-weight: bolder;
+    color: #fff;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid #00ffff;
+    padding-bottom: 2px;
+}
+
+/* About me section */
+
+#aboutme > h2
+{
+    background: tomato;
+    text-align: center;
+
+}
+
+#aboutme_t > #img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background: tomato;
+    border: 2px solid #00ffff;
+}
+
+#aboutme_t
+{
+    display: flex;
+    align-items: center;
+    padding: 4%;
+}
