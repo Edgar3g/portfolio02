@@ -6,7 +6,12 @@
 
 body
 {
-    background: #483d8b;
+    background: linear-gradient(
+
+       #231e44 90%,
+       #232d44 0%
+       );
+    text-align: justify;
     font-family: "Helvetica", sans-serif;
 }
 
@@ -14,7 +19,8 @@ body
 
 header
 {
-    border: 1px solid  #6e5ed398;
+    
+    border-bottom: 1px solid  #6e5ed398;
     width: auto;
     display: flex;
     justify-content: space-between;
@@ -59,26 +65,100 @@ header > nav > a:hover
     padding-bottom: 2px;
 }
 
+/* Citation Section */
+
+.citation{
+    display: flex;
+    align-items: center;
+    padding-top: 2vw;
+
+}
+
+.citation > blockquote
+{
+    font-weight: bolder;
+    font-size: 15pt;
+    color: rgb(228, 224, 224);
+    padding: .5vw;
+}
+.citation > blockquote > p
+{
+    text-align: justify;
+}
+.citation > blockquote > cite
+{
+    color:rgb(138, 155, 144);
+    
+}
+
+.citation img
+{
+    width: 50%;
+    height: 20vw;
+}
+
+.v{
+    background: tomato;
+    font-size: 17pt;
+    color: #fff;
+    padding: 20px;
+}
+
 /* About me section */
+
+#aboutme
+{
+    padding-top: 5vw;
+}
 
 #aboutme > h2
 {
-    background: tomato;
     text-align: center;
+    color: #fff;
 
 }
-
-#aboutme_t > #img{
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    background: tomato;
-    border: 2px solid #00ffff;
-}
-
-#aboutme_t
+#aboutme > .container
 {
     display: flex;
+    padding: .5vw;
+    justify-content: space-between;
+}
+#aboutme > .container > .imgs 
+{
+    width: 50%;
+    display: grid;
+    justify-content: center;
+}
+#aboutme > .container > .imgs > .Bord { border: 3px solid  #00ffff; border-radius: 50%; }
+#aboutme > .container > .imgs > .Bord > #eu
+{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+#aboutme > .container > .imgs > span{ padding-top: 2vw; padding-bottom: 2vw; text-align: center; font-size: 15pt; color: #fff;}
+
+#aboutme > .container > .imgs > .socialM
+{
+    background: tomato;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+}
+#aboutme > .container > .imgs > .socialM > img
+{
+    width: 4vw;
+    padding: 1vw;
+}
+
+#aboutme > .container > #aboutme_txt
+{
+    display: flex;
+    width: 50%;
     align-items: center;
     padding: 4%;
 }
