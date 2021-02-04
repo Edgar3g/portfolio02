@@ -138,18 +138,17 @@ header > nav > a:hover
     padding: 5px;
 }
 
-#aboutme > .container > .imgs > span{ padding-top: 2vw; padding-bottom: 2vw; text-align: center; font-size: 15pt; color: #fff;}
+#aboutme > .container > .imgs > span{ padding-top: 2vw; padding-bottom: 2vw; text-align: center; font-size: 15pt; color: #00ffff;}
 
 #aboutme > .container > .imgs > .socialM
 {
-    background: tomato;
     width: 100%;
     display: flex;
     justify-content: center;
     
 
 }
-#aboutme > .container > .imgs > .socialM > img
+#aboutme > .container > .imgs > .socialM > a > img
 {
     width: 4vw;
     padding: 1vw;
@@ -157,8 +156,14 @@ header > nav > a:hover
 
 #aboutme > .container > #aboutme_txt
 {
-    display: flex;
+    color:rgb(228, 224, 224);
+
     width: 50%;
     align-items: center;
     padding: 4%;
+}
+
+#aboutme > .container > #aboutme_txt > p
+{
+    padding-top: .5vw;
 }
