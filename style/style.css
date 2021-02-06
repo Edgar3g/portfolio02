@@ -8,12 +8,22 @@ body
 {
     background: linear-gradient(
 
-       #231e44 90%,
+       #231e44 100%,
        #232d44 0%
        );
     text-align: justify;
     font-family: "Helvetica", sans-serif;
 }
+
+h2
+{
+    padding-top: 1vw;
+    padding-bottom: 3vw;
+    text-align: center;
+    color: #fff;
+
+}
+
 
 /* Header Section */
 
@@ -111,12 +121,6 @@ header > nav > a:hover
     padding-top: 5vw;
 }
 
-#aboutme > h2
-{
-    text-align: center;
-    color: #fff;
-
-}
 #aboutme > .container
 {
     display: flex;
@@ -166,4 +170,49 @@ header > nav > a:hover
 #aboutme > .container > #aboutme_txt > p
 {
     padding-top: .5vw;
+}
+
+
+/* Section  Skills */
+
+/* section Contacts */
+
+#contacts > .container_cont
+{
+    background: tomato;
+    display: grid;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+
+#contacts img
+{
+    width: 4vw;
+    padding: 1vw;
+}
+
+
+/* Footer */
+
+footer
+{
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    background: #232d44;
+    border-bottom: 3px solid  #00ffff;
+    width: auto;
+    font-size: 14pt;
+    height: 14vh;
+    color: rgb(228, 224, 224);  
+}
+
+footer .container{ width: 99%; display: grid; justify-content: center; background: red;}
+
+footer p,h3
+{
+    
+    background: tomato;
+    text-align: center;
 }
