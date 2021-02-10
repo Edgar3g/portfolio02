@@ -4,6 +4,13 @@
     padding: 0;
 }
 
+#Att{
+    padding: 12px;
+    font-size: 1.1rem;
+    color: red;
+    background: hsl(233, 65%, 32%);
+}
+
 body
 {
     background: linear-gradient(
@@ -176,43 +183,23 @@ header > nav > a:hover
 /* Section  Skills */
 
 /* section Contacts */
-
-#contacts > .container_cont
+#contacts
 {
-    background: tomato;
-    display: grid;
-    justify-items: center;
-    justify-content: space-between;
+    background-image: url('../image/footer-bg.jpg');
+
 }
 
+#contacts > .container_counts
+{
+    display: grid;
+    justify-content: center;
+    
+    
+}
 
 #contacts img
 {
     width: 4vw;
     padding: 1vw;
 }
-
-
 /* Footer */
-
-footer
-{
-    display: grid;
-    align-content: center;
-    justify-items: center;
-    background: #232d44;
-    border-bottom: 3px solid  #00ffff;
-    width: auto;
-    font-size: 14pt;
-    height: 14vh;
-    color: rgb(228, 224, 224);  
-}
-
-footer .container{ width: 99%; display: grid; justify-content: center; background: red;}
-
-footer p,h3
-{
-    
-    background: tomato;
-    text-align: center;
-}
